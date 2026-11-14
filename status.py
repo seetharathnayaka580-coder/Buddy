@@ -4,7 +4,7 @@ from plugins.client import client
 from telethon import events
 
 # Channel ID for notifications
-STATUS_CHANNEL_ID = -1002309648603  # Replace with the actual channel ID
+STATUS_CHANNEL_ID = --1004167204168  # Replace with the actual channel ID
 
 @events.register(events.NewMessage(outgoing=True, pattern=r'^(.status)$'))
 async def status(event):
