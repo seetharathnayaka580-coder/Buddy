@@ -11,7 +11,7 @@ DB_FILE = "data.db"
 client = plugins.client.client
 
 # Define the channel ID
-channel_id = -1002369469078
+channel_id = -1004371612620
 
 def init_db():
     """
@@ -108,17 +108,17 @@ def refresh_user_cache():
 
 # Define a dictionary of message IDs for different commands
 message_ids = {
-    '/price': 9,
-    '/package': 10,
-    '.bank': 6,
-    '.ezcash': 7,
-    '.reload': 8,
-    '.bot1': 12,
-    '.bot2': 13,
-    '.bot3': 14,
-    '.bot4': 17,
-    '.iphone': 15,
-    '.v2ray': 16,
+    '/price': 4,
+    '/package': 5,
+    '.bank': 7,
+    '.ezcash': 6,
+    '.reload': 6,
+    '.bot1': 6,
+    '.bot2': 6,
+    '.bot3': 6,
+    '.bot4': 6,
+    '.iphone': 8,
+    '.v2ray': 8,
 }
 
 async def public_commands(event):
