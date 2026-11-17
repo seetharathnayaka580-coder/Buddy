@@ -12,8 +12,8 @@ client = plugins.client.client
 
 # Define the channel ID and message IDs
 channel_id = -1002369469078
-welcome_message_id = 2
-warning_message_id = 11
+welcome_message_id = 3
+warning_message_id = 9
 
 def init_db():
     """
